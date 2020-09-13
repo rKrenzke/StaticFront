@@ -1,0 +1,285 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav{
+    background-color: #2a2a2a;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.top-nav-items{
+    list-style: none;
+    display: inline-flex;
+}
+
+.top-nav-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ccc;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 15px 12px;
+    text-align: center;
+}
+
+.top-nav-items a:hover{
+    color: #fff;
+}
+
+.search{
+    float: right;
+    margin: 20px;
+}
+
+.search-bar{
+    display: inline-flex;
+}
+#lower-nav ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: left;
+}
+
+#lower-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 15px;
+    font-size: 18px;
+    padding: 11px;
+}
+
+#lower-nav a:hover{
+    color: #a0c800;
+}
+
+.search-bar input{
+    background-color: #555555;
+    width: 350px;
+    height: 40px;
+    float: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    letter-spacing: .02em;
+    
+}
+
+#search-button{
+    height: 42px;
+    width: 50px;
+    border: none;
+    background-color: #555555;
+}
+
+#search-button:hover{
+    background-color: #2a2a2a;
+}
+
+#magnifying-glass{
+    font-size: 2em;
+      display: inline-block;
+      width: 0.4em;
+      box-sizing: content-box;
+      height: 0.4em;
+      border: 0.1em solid #fff;
+      position: relative;
+      border-radius: 0.35em;
+}
+
+#magnifying-glass:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -0.25em;
+    bottom: -0.1em;
+    border-width: 0;
+    background: #fff;
+    width: 0.35em;
+    height: 0.08em;
+    transform: rotate(45deg);
+  }
+
+.nav-icons{
+    text-align: right;
+    padding-left: 250px;
+}
+.nav-icons ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav-icons a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    line-height: 18px;
+    padding: 0px 19px;
+    font-weight: 500;
+    letter-spacing: .03em;
+}
+
+.nav-icons a:hover{
+    color: #a0c800;
+}
+
+#site-logo{
+    padding: 20px;
+    display: block;
+}
+#inner-wrapper{
+    width: 100vw;
+    background-color: #000;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.landing{
+    position: relative;
+    height: fit-content;
+}
+.landing img{
+    max-width: 100%;
+    max-height: 60%;
+}
+
+.landing-prompt{
+    width: 420px;
+    position: absolute;
+    background-color: #245c4c;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    top: 80px;
+    left: 150px;
+}
+
+.landing-prompt p{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    margin: 4px;
+}
+
+.landing-prompt h4{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin: 4px;
+    letter-spacing: .06em;
+}
+.landing-prompt h2{
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+.prompt-wrapper{
+    padding: 25px;
+}
+#prompt-btn{
+    height: 45px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+}
+#prompt-btn:hover{
+    border: 3px solid black;
+    opacity: .9;
+}
+h2{
+    font-family: 'Mukta', sans-serif;
+}
+
+.shop{
+    margin-right: 80px;
+}
+
+.shop h2{
+    color: #2a2a2a;
+    padding: 15px;
+    margin: 0;
+}
+
+.shop-products{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    margin-bottom: 20px;
+}
+
+#product-image{
+    padding: 0px 15px;
+}
+
+#product-image:hover{
+    opacity: .7;
+    position: relative;
+    margin-top: -3px;
+}
+
+
+.product a{
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    color: #2a2a2a;
+}
+
+.product a:hover{
+    text-decoration: underline;
+}
+
+.product p{
+    padding: 0px 15px;
+    margin-top: 3px;
+}
+
+.shop{
+    margin-left: 10%;
+}
+
+#save{
+    color: red;
+    font-weight: bold;
+}
+
+#outlet-image{
+    border-top: 5px solid red;
+}
+
+.mid-page{
+    font-family: 'Mukta', sans-serif;
+    text-align: right;
+    font-size: 18px;
+}
+
+.mid-page button{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #cc0404;
+    border: 3px solid #cc0404;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    width: 200px;
+}
+
+.mid-page button:hover{
+    color: #cc0404;
+    background-color: #fce4e4;
+}
+hr{
+    margin: 10px;
+}
